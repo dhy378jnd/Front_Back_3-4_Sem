@@ -1,34 +1,12 @@
+# React + Vite
 
-## 📌 Установка и запуск проекта
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### 1️⃣ Установите зависимости
-Перед запуском серверов убедитесь, что установлен необходимый пакет WebSocket:
-```sh
-npm install ws
-```
-```sh
-npm install express cors ws
-```
+Currently, two official plugins are available:
 
-### 2️⃣ Запустите серверы
-Выполните следующие команды в отдельных терминалах:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-#### 🛒 Запуск сервера магазина (API продуктов)
-```sh
-node server/shopServer.js
-```
+## Expanding the ESLint configuration
 
-#### ⚙️ Запуск сервера админ-панели (управление товарами)
-```sh
-node server/adminServer.js
-```
-
-#### 💬 Запуск WebSocket сервера (чат)
-```sh
-node server/websocketServer.js
-```
-
-Теперь откройте следующие ссылки в браузере:
-- **Магазин для пользователей:** [http://localhost:3000](http://localhost:3000)
-- **Админ-панель:** [http://localhost:8080](http://localhost:8080)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
