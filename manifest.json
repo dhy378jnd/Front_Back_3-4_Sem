@@ -1,0 +1,8 @@
+{
+    "short_name": "Заметки",
+    "name": "Приложение для заметок",
+    "start_url": "/index.html",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "display": "standalone"
+}
