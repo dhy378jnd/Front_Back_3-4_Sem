@@ -1,0 +1,38 @@
+$primary-color: #007bff;
+$hover-color: #0056b3;
+$active-color: #003d80;
+$text-color: white;
+$font-family: Arial, sans-serif;
+$border-radius: 8px;
+$font-size: 16px;
+$padding: 12px 24px;
+$transition-speed: 0.3s;
+
+body {
+    font-family: $font-family;
+}
+
+
+.custom-btn {
+    background-color: $primary-color;
+    color: $text-color;
+    font-size: $font-size;
+    padding: $padding;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: background-color $transition-speed, transform $transition-speed, box-shadow $transition-speed;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color: $hover-color;
+        transform: scale(1.05);
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    &:active {
+        background-color: $active-color;
+        transform: scale(0.98);
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    }
+}
