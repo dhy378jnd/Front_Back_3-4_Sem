@@ -1,4 +1,4 @@
-// app.js
+//
 document.addEventListener('DOMContentLoaded', () => {
     const noteForm = document.getElementById('note-form');
     const noteTextarea = document.getElementById('note-textarea');
