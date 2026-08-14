@@ -1,7 +1,5 @@
-# 🌐 Фронтенд и бэкенд разработка — IV семестр
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A90E2,50:50C9C3,100:2F80ED&height=220&section=header&text=Frontend%20%26%20Backend%20Development&fontSize=40&fontAlignY=38&desc=IV%20Semester%20Coursework&descAlignY=58&fontColor=ffffff"/>
+   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B0A0A,50:8B1E1E,100:C0392B&height=220&section=header&text=Frontend_Backend&fontSize=46&fontAlignY=38&desc=IV%20Semester&descAlignY=58&fontColor=ffffff"/>
 </p>
 
 <p align="center">
